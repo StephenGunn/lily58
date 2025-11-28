@@ -46,11 +46,11 @@
 
         upper {
             bindings = <
-&trans  &kp F1     &kp F2         &kp F3                &kp F4                 &kp F5                               &trans  &trans            &trans             &trans  &trans  &trans
-&trans  &kp GRAVE  &kp TILDE      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL                            &trans  &kp LEFT_BRACE    &kp RIGHT_BRACE    &trans  &trans  &trans
-&trans  &kp UNDER  &kp AMPERSAND  &kp LESS_THAN         &kp GREATER_THAN       &kp EXCLAMATION                      &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans  &trans  &trans
-&trans  &trans     &trans         &kp DOLLAR            &kp COLON              &kp MINUS        &kp PLUS    &trans  &trans  &trans            &trans             &trans  &trans  &trans
-                                  &trans                &trans                 &trans           &trans      &trans  &trans  &trans            &trans
+&trans  &kp F1     &kp F2         &kp F3                &kp F4                 &kp F5                               &trans    &trans            &trans             &trans  &trans  &trans
+&trans  &kp GRAVE  &kp TILDE      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL                            &trans    &kp LEFT_BRACE    &kp RIGHT_BRACE    &trans  &trans  &trans
+&trans  &kp UNDER  &kp AMPERSAND  &kp LESS_THAN         &kp GREATER_THAN       &kp EXCLAMATION                      &kp PIPE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans  &trans  &trans
+&trans  &trans     &trans         &kp DOLLAR            &kp COLON              &kp MINUS        &kp PLUS    &trans  &trans    &trans            &trans             &trans  &trans  &trans
+                                  &trans                &trans                 &trans           &trans      &trans  &trans    &trans            &trans
             >;
 
             label = "raise";
