@@ -150,6 +150,15 @@
         };
     };
 
+    macros {
+        fat_arrow: arrow_func {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp EQUAL &kp GREATER_THAN>;
+            label = "ARROW_FUNC";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -188,7 +197,7 @@
         nav {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans     &trans        &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &kp LC(Y)       &trans     &trans        &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &kp LC(Y)       &kp HOME   &kp END       &trans     &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                    &kp LEFT_ARROW  &kp DOWN   &kp UP_ARROW  &kp RIGHT  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &caps_word      &kp PG_DN  &kp PG_UP     &trans     &trans  &trans
                         &trans  &trans  &trans  &trans    &trans  &trans          &trans     &trans
