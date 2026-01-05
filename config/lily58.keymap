@@ -185,11 +185,11 @@
 
             display-name = "jovian";
             bindings = <
-&trans  &trans           &trans           &trans               &trans             &trans                                    &trans        &trans              &trans                &trans            &trans                    &trans
-&trans  &kp Q            &kp W            &kp E                &kp R              &kp T                                     &kp Y         &kp U               &kp I                 &kp O             &kp P                     &trans
-&trans  &hml LEFT_GUI A  &hml LEFT_ALT S  &hml LEFT_CONTROL D  &hml LEFT_SHIFT F  &pcm_l 2 G                                &pcm_r 2 H    &hmr RIGHT_SHIFT J  &hmr RIGHT_CONTROL K  &hmr RIGHT_ALT L  &hmr RIGHT_GUI SEMICOLON  &trans
-&trans  &kp Z            &kp X            &kp C                &kp V              &kp B               &trans       &trans   &kp N         &kp M               &kp COMMA             &kp DOT           &kp FSLH                  &trans
-                                          &kp LALT             &mo 3              &pcm_l 1 BACKSPACE  &kp SPACE    &kp RET  &pcm_r 1 DEL  &mo 3               &mo 4
+&trans  &trans           &trans           &trans               &trans             &trans                                                &trans        &trans              &trans                &trans            &trans                    &trans
+&trans  &kp Q            &kp W            &kp E                &kp R              &kp T                                                 &kp Y         &kp U               &kp I                 &kp O             &kp P                     &trans
+&trans  &hml LEFT_GUI A  &hml LEFT_ALT S  &hml LEFT_CONTROL D  &hml LEFT_SHIFT F  &pcm_l 2 G                                            &pcm_r 2 H    &hmr RIGHT_SHIFT J  &hmr RIGHT_CONTROL K  &hmr RIGHT_ALT L  &hmr RIGHT_GUI SEMICOLON  &trans
+&trans  &kp Z            &kp X            &kp C                &kp V              &kp B               &trans            &trans          &kp N         &kp M               &kp COMMA             &kp DOT           &kp FSLH                  &trans
+                                          &kp LALT             &mo 3              &pcm_l 1 BACKSPACE  &pcm_l 3 SPACE    &pcm_r 3 ENTER  &pcm_r 1 DEL  &mo 3               &mo 4
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -197,11 +197,11 @@
 
         symbols {
             bindings = <
-&trans  &trans     &trans       &trans             &trans         &trans                              &trans          &trans                &trans                 &trans        &trans     &trans
-&trans  &kp GRAVE  &kp CARET    &kp ASTERISK       &kp DOLLAR     &kp EXCLAMATION                     &kp PLUS        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp QUESTION  &kp SQT    &trans
-&trans  &kp PIPE   &kp PERCENT  &kp LESS_THAN      &kp EQUAL      &kp GREATER_THAN                    &kp MINUS       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN   &kp COLON  &trans
-&trans  &trans     &trans       &kp DOUBLE_QUOTES  &kp AMPERSAND  &kp TILDE         &trans    &trans  &kp UNDERSCORE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans        &kp SLASH  &trans
-                                &trans             &trans         &trans            &trans    &trans  &trans          &trans                &trans
+&trans  &trans     &trans             &trans         &trans         &trans                              &trans          &trans                &trans                 &trans        &trans     &trans
+&trans  &kp GRAVE  &kp DOUBLE_QUOTES  &kp SQT        &kp DOLLAR     &kp EXCLAMATION                     &kp PLUS        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp QUESTION  &kp STAR   &trans
+&trans  &kp PIPE   &kp PERCENT        &kp LESS_THAN  &kp EQUAL      &kp GREATER_THAN                    &kp MINUS       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN   &kp COLON  &trans
+&trans  &trans     &trans             &kp LCTRL      &kp AMPERSAND  &kp TILDE         &trans    &trans  &kp UNDERSCORE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans        &kp SLASH  &trans
+                                      &trans         &trans         &trans            &trans    &trans  &trans          &trans                &trans
             >;
 
             label = "symbols";
@@ -210,7 +210,7 @@
         nav {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans     &trans        &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &kp LC(Y)       &kp HOME   &kp END       &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &kp LC(Y)       &trans     &trans        &trans     &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                    &kp LEFT_ARROW  &kp DOWN   &kp UP_ARROW  &kp RIGHT  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp HOME        &kp PG_DN  &kp PG_UP     &kp END    &trans  &trans
                         &trans  &trans  &trans  &trans    &trans  &trans          &trans     &trans
