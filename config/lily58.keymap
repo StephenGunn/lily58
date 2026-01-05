@@ -22,7 +22,7 @@
         tab {
             bindings = <&kp TAB>;
             key-positions = <14 13>;
-            require-prior-idle-ms = <350>;
+            require-prior-idle-ms = <300>;
         };
 
         hr_esc {
@@ -42,6 +42,12 @@
             bindings = <&kp LG(PRINTSCREEN)>;
             key-positions = <34 22>;
             require-prior-idle-ms = <280>;
+        };
+
+        secret_space {
+            bindings = <&kp SPACE>;
+            key-positions = <31 32>;
+            layers = <1>;
         };
     };
 
@@ -206,7 +212,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans     &trans        &trans     &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                    &kp LC(Y)       &kp HOME   &kp END       &trans     &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                    &kp LEFT_ARROW  &kp DOWN   &kp UP_ARROW  &kp RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &caps_word      &kp PG_DN  &kp PG_UP     &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp HOME        &kp PG_DN  &kp PG_UP     &kp END    &trans  &trans
                         &trans  &trans  &trans  &trans    &trans  &trans          &trans     &trans
             >;
 
